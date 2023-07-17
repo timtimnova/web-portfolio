@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Navbar */
+#navbarNav {
+  background-color: rgba(54, 136, 171, 0.9);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+#navbarNav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+#navbarNav ul li {
+  margin: 0 15px;
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-right: auto;
+}
+
+#navbarNav ul li a {
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+/* End of Navbar */
+
+/* Landing Section */
+#landing-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin: auto;
+  background-color: rgb(249, 247, 240);
+}
+
+#landing-section h1 {
+  font-family: 'Caveat', cursive;
+  margin-top: 0;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+#landing-section h3 {
+  font-family: 'Ysabeau SC', sans-serif;
+  margin-top: 6rem;
+  margin-bottom: 0;
+  font-size: 25px;
+  color: firebrick;
+}
+
+#landing-section p {
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  line-height: 1rem;
+  font-size: 15px;
+  text-align: center;
+}
+
+#landing-section img {
+  margin-top: 1rem;
+  border-radius: 100%;
+  width: 20rem;
+   border: 2px solid rgb(163, 101, 0);
+}
+/* End of Landing Section */
+
+/* Project Section */
+#projects-section {
+  background-color: rgb(255, 253, 146);
+}
+
+#projects-section h1 {
+  text-align: center;
+  color: rgb(195, 25, 82);
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  line-height: 1rem;
+  font-weight: 700;
+}
+
+.card {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 450px;
+  border: 1px solid black;
+  margin: 10px;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 15px;
+  background: linear-gradient(to top, rgb(255,45,45) 50%, white 50%);
+  background-size: 100% 200%;
+  transition: all, .8s;
+}
+
+.card:hover {
+  background-position: left bottom;
+  color: white;
+  border: none;
+  box-shadow: 0 0 10px rgb(195, 25, 82);
+}
+
+.card h3, p{
+  text-align: center;
+}
+/* End of Project Section */
+
+/* Tools Section */
+#tools-section {
+  background-color: rgb(218, 255, 246);
+}
+
+#tools-section h1 {
+  text-align: center;
+  color: rgb(0, 107, 108);
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  font-weight: 700;
+}
+
+#tools-section img {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tools-section .row {
+  border: 2px solid rgb(0, 107, 108);
+  padding: 25px 0;
+}
+/* End of Tools Section */
+
+/* Contact Section */
+#contact-section {
+  background-color: rgb(255, 226, 235);
+}
+
+#contact-section h1 {
+  text-align: center;
+  color: rgb(195, 47, 0);
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  font-weight: 700;
+}
+
+.fb-icon {
+  color: black;
+  margin-top: 3px 0 0 0;
+  font-size: 25px;
+}
+
+.fb-icon:hover {
+  color: darkblue;
+  transition: .2s;
+}
+
+#contact-section form {
+  width: 100%; 
+  border: 2px solid rgb(195, 47, 0);
+  padding: 20px;
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact-section .form-control {
+  width: auto;
+}
+
+#buttonSub {
+  color: black;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+#contact-section button:hover {
+  background-color: rgb(195, 47, 0);
+}
+
+#modalDiv h5 {
+  color: darkolivegreen;
+}
+
+#modalDiv .modal-body {
+  text-align: center;
+}
+
+#buttonClose {
+  background-color: rgb(195, 47, 0);
+  color: white;
+}
+/* End of Contact Section */
+
+/* Footer Section */
+footer {
+  padding-bottom: 5px;
+  text-align: center;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  background-color: rgb(255, 226, 235);
+}
+
+footer > span {
+  margin: 0 10px;
+  font-weight: 300;
+}
+/* End of Footer Section */
